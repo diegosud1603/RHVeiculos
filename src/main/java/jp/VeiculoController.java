@@ -12,12 +12,14 @@ public class VeiculoController {
     @Autowired
     private VeiculoService veiculoService;
 
-    @GetMapping("/ano-compra/{ano}")
+    @GetMapping("/ano-compra/")
+
     public List<Veiculo> listarPorAnoCompra(@PathVariable int ano) {
         return veiculoService.listarPorAnoCompra(ano);
     }
 
-    @GetMapping("/modelo/{modelo}")
+    @GetMapping("/modelo/")
+
     public List<Veiculo> listarPorModelo(@PathVariable String modelo) {
         return veiculoService.listarPorModelo(modelo);
     }

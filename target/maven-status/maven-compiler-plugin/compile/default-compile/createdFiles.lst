@@ -1,0 +1,10 @@
+jp\Funcionario.class
+jp\OpenAPIDefinition.class
+jp\VeiculoController.class
+jp\VeiculosRhApplication.class
+jp\Veiculo.class
+jp\VeiculoRepository.class
+jp\FuncionarioRepository.class
+jp\Penalizacao.class
+jp\DataInitializer.class
+jp\VeiculoService.class
