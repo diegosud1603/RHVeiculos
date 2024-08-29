@@ -25,7 +25,13 @@ public class VeiculoController {
     }
 
     @GetMapping("/top3-km")
-    public List<Veiculo> listarTop3PorKmRodada() {
-        return veiculoService.listarTop3PorKmRodada();
+
+    public List<Veiculo> listarTop3PorKmRodada() {return veiculoService.listarTop3PorKmRodada();
+    }
+
+    //FuncionarioController
+    @GetMapping("/motorista-qveiculo")
+
+    public List<Veiculo> listarTop3PorKmRodada() {return veiculoService.listarTop3PorKmRodada();
     }
 }

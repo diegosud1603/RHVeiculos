@@ -26,8 +26,8 @@ public class DataInitializer {
             Penalizacao penalizacao2 = new Penalizacao("Suspensão de habilitação", LocalDate.of(2023, 2, 1), LocalDate.of(2023, 2, 28));
             
             // Adicionando dados de teste para Funcionario
-            Funcionario funcionario1 = new Funcionario("João da Silva", "123456789", LocalDate.of(1990, 5, 15), "AB", true, Arrays.asList(penalizacao1));
-            Funcionario funcionario2 = new Funcionario("Maria Oliveira", "987654321", LocalDate.of(1985, 8, 20), "CD", false, Arrays.asList(penalizacao2));
+            Funcionario funcionario1 = new Funcionario("João da Silva", "123456789", 58,LocalDate.of(1990, 5, 15), "AB", true, Arrays.asList(penalizacao1));
+            Funcionario funcionario2 = new Funcionario("Maria Oliveira", "987654321", 68, LocalDate.of(1985, 8, 20), "CD", false, Arrays.asList(penalizacao2));
             
             funcionarioRepository.saveAll(Arrays.asList(funcionario1, funcionario2));
         };

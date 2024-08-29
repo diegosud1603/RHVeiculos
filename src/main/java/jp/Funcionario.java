@@ -22,6 +22,8 @@ public class Funcionario {
     private String nome;
     private String rg;
 
+    private int qveiculosrodados;
+
     @Column(name = "data_nascimento")
     private LocalDate dataNascimento;
     private String habilitacao;
@@ -32,10 +34,11 @@ public class Funcionario {
     private List<Penalizacao> penalizacoes = new ArrayList<>(); // Inicializa a lista
 
     // Construtor
-    public Funcionario(String nome, String rg, LocalDate dataNascimento, 
+    public Funcionario(String nome, String rg, int qveiculosrodados, LocalDate dataNascimento,
                        String habilitacao, boolean autorizadoParaDirigir, List<Penalizacao> penalizacoes) {
         this.nome = nome;
         this.rg = rg;
+        this.qveiculosrodados = qveiculosrodados;
         this.dataNascimento = dataNascimento;
         this.habilitacao = habilitacao;
         this.autorizadoParaDirigir = autorizadoParaDirigir;
