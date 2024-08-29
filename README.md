@@ -1,5 +1,5 @@
 
-# Sistema de Fictício Veículo & RH
+# Sistema de Veículos & RH
 
 ## Tutorial de Uso do Maven
 
