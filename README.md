@@ -19,10 +19,10 @@ Isso criará um arquivo JAR na pasta `target` do seu projeto.
 Para executar o JAR manualmente, use o comando:
 
 ```sh
-java -jar target/sistema.jar
-```.
+java -jar target/sistema-veiculo-1.0-SNAPSHOT.jar
+```
 
-### 4. Acessar a Documentação Swagger UI
+### 3. Acessar a Documentação Swagger UI
 
 Após iniciar o aplicativo, você pode acessar a documentação Swagger UI em:
 
